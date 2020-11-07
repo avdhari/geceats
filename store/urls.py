@@ -1,6 +1,8 @@
-# from django.urls import path
-# from . import views
+from django.urls import path
+from . import views
 
-# urlpatterns = [
-#     path('', views.foodList, name='foodList'),
-# ]
+urlpatterns = [
+    path('', views.main, name='main'),
+    path('order/', views.order, name='order'),
+    path('cart/', views.cart, name='cart'),
+]
