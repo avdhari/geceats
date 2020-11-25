@@ -1,4 +1,46 @@
+{% extends 'store/main.html' %}
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 
-<h1>store</h1>
+{% block content %}
+
+     <div class="row">
+          <div class="col-lg-4">
+               <img class="thumbnail" src="{% static 'images/ghee-rice.png' %}" alt="">
+               <div class="box-element product">
+               <h6><strong>Product</strong></h6>
+               <hr>
+               <button class="btn btn-outline-success add-btn">&nbsp; + &nbsp;</button>
+               <button class="btn btn-outline-danger add-btn">&nbsp; - &nbsp;</button>
+               <h4 style="display: inline-block; float: right;" >&#8377; 30</h4>
+
+               </div>
+          </div>
+          
+          <div class="col-lg-4">
+               <img class="thumbnail" src="{% static 'images/chicken-curry.jpg' %}" alt="">
+               <div class="box-element product">
+               <h6><strong>Product</strong></h6>
+               <hr>
+               <button class="btn btn-outline-success add-btn">&nbsp; + &nbsp;</button>
+               <button class="btn btn-outline-danger add-btn">&nbsp; - &nbsp;</button>
+               <h4 style="display: inline-block; float: right;" >&#8377; 30</h4>
+               
+
+               </div>
+          </div>
+
+          <div class="col-lg-4">
+               <img class="thumbnail" src="{% static 'images/beef-curry.jpeg' %}" alt="">
+               <div class="box-element product">
+               <h6><strong>Product</strong></h6>
+               <hr>
+               <button class="btn btn-outline-success add-btn">&nbsp; + &nbsp;</button>
+               <button class="btn btn-outline-danger add-btn">&nbsp; - &nbsp;</button>
+               <h4 style="display: inline-block; float: right;" >&#8377; 30</h4>                    
+
+               </div>
+
+          </div>
+     </div>
+
+{% endblock content %}
