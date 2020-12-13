@@ -1,4 +1,8 @@
 Django==2.2
+<<<<<<< HEAD
 pkg-resources==0.0.0
 pytz==2020.4
 sqlparse==0.4.1
+=======
+pip==20.2.4
+>>>>>>> 691706064d6c6fbecf31ac5c811ac74e94c5a284
