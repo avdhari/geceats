@@ -1,1 +1,47 @@
-<h1>checkout</h1>
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="box-element" id="form-wrapper">
+            <div style="flex:2"><strong>Order ID: 12012020/15</strong></div>
+            <div style="flex:2"><strong>UDT: hsrk27</strong></div>          
+            <div style="flex:1"><strong>Delivery Time: 12:45 PM</strong></div>
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="col-lg-6">
+        <div class="box-element" >
+            <a href="{% url 'cart' %}" class="btn btn-outline-dark">Back to Cart</a>
+            <hr>
+
+            <h3>Order Summary</h3>
+            <hr>
+
+            <div class="cart-row">
+                <div style="flex:1"><img class="row-image" src="{% static 'images/placeholder.png' %}" alt=""></div>
+                <div style="flex:2">Product 1</div>
+                <div style="flex:1">&#8377 30</div>
+                <div style="flex:1">
+                    <p class="quantity">3</p>
+                                
+                </div>
+                <div style="flex:1">&#8377 90 </div>
+            </div>
+
+            <h5>Items: 3</h5>
+            <h5>Total: &#8377 90</h5>
+            <input type="submit" name="" id="" value="Continue">
+        </div>
+
+    </div>
+</div>
+
+
+
+{% endblock content %}
