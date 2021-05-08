@@ -4,4 +4,8 @@
 __pycache__
 env
 db.sqlite3
+<<<<<<< HEAD
+=======
+
+>>>>>>> 724da821890b5de2f54e48c9682fe498a76cf4b8
 .DS_Store
