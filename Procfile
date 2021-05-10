@@ -1,1 +1,1 @@
-web: gunicorn geceats.wsgi --log-file -
+web: gunicorn geceats.wsgi --log-file - --log-level debug
